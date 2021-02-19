@@ -131,6 +131,19 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+function divider (numbersArray) {
+  let evenArr = [];
+  let oddArr = [];
+  for (let i = 0; i < numbersArray.length; i++);
+  if (numbersArray[i] % 2 === 0){
+    evenArr.push(numbersArray[i]);
+  } 
+  else {
+    oddArr.push(numbersArray[i]);
+  }
+}
+
+
 
 
 
@@ -153,7 +166,16 @@ var getRandomArbitrary = function() {
 */
 
 //Code Here
-
+function finder(numbers){
+  let randomNumber = getRandomArbitrary();
+  for (let i = 0; i < numbers.length; i++){
+    if (numbers[i] === numbers[i]) {
+      return true
+    } else {
+      return false;
+    }
+  }
+}
 
 
 ////////// PROBLEM 8 //////////
